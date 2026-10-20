@@ -1,0 +1,110 @@
+2026-10-20 19:28:05.233 26154-26154 MainActivity            com.example.prac1_book               D  onPause
+2026-10-20 19:28:05.248 26154-26154 DetailActivity          com.example.prac1_book               D  onCreate
+2026-10-20 19:28:05.250 26154-26154 DetailActivity          com.example.prac1_book               D  onStart
+2026-10-20 19:28:05.251 26154-26154 DetailActivity          com.example.prac1_book               D  onResume
+2026-10-20 19:28:05.265 26154-26154 WindowOnBackDispatcher  com.example.prac1_book               D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@772660
+2026-10-20 19:28:05.265 26154-26176 WindowOnBackDispatcher  com.example.prac1_book               D  setOnBackInvokedCallbackInfo: android.app.Activity$$ExternalSyntheticLambda0@772660
+2026-10-20 19:28:05.266 26154-26154 VRI[DetailActivity]     com.example.prac1_book               D  WindowInsets changed: 1344x2992 statusBars:[0,151,0,0] navigationBars:[0,0,0,72] mandatorySystemGestures:[0,187,0,96] 
+2026-10-20 19:28:05.268 26154-26154 Surface                 com.example.prac1_book               I  Creating surface for consumer unnamed-26154-1 with slotExpansion=1 for 64 slots
+2026-10-20 19:28:05.269 26154-26154 Surface                 com.example.prac1_book               I  Creating surface for consumer VRI[DetailActivity]#1(BLAST Consumer)1 with slotExpansion=1 for 64 slots
+2026-10-20 19:28:05.426 26154-26154 InsetsController        com.example.prac1_book               D  hide(ime())
+2026-10-20 19:28:05.427 26154-26154 ImeTracker              com.example.prac1_book               I  com.example.prac1_book:d1364557: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-20 19:28:05.802 26154-26154 VRI[MainActivity]       com.example.prac1_book               D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-20 19:28:05.820 26154-26154 MainActivity            com.example.prac1_book               D  onStop
+2026-10-20 19:30:37.376   692-838   InputDispatcher         system_server                        E  channel 'f363b06 com.example.prac1_book/com.example.prac1_book.DetailActivity' ~ Channel is unrecoverably broken and will be disposed!
+---------------------------- PROCESS ENDED (26154) for package com.example.prac1_book ----------------------------
+---------------------------- PROCESS STARTED (28480) for package com.example.prac1_book ----------------------------
+2026-10-20 19:30:37.708 28480-28480 nativeloader            com.example.prac1_book               D  Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+2026-10-20 19:30:37.741 28480-28480 mple.prac1_book         com.example.prac1_book               W  Suspending all threads took: 13.719ms
+2026-10-20 19:30:37.746 28480-28480 re-initialized>         com.example.prac1_book               W  type=1400 audit(0.0:42): avc:  granted  { execute } for  path="/data/data/com.example.prac1_book/code_cache/startup_agents/d77b4fbe-agent.so" dev="dm-6" ino=567198 scontext=u:r:untrusted_app:s0:c230,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c230,c256,c512,c768 tclass=file app=com.example.prac1_book
+2026-10-20 19:30:37.759 28480-28480 nativeloader            com.example.prac1_book               D  Load /data/user/0/com.example.prac1_book/code_cache/startup_agents/d77b4fbe-agent.so using system ns (caller=<unknown>): ok
+2026-10-20 19:30:37.777 28480-28480 mple.prac1_book         com.example.prac1_book               W  hiddenapi: DexFile /data/data/com.example.prac1_book/code_cache/.studio/instruments-c3716e42.jar is in boot class path but is not in a known location
+2026-10-20 19:30:37.952   692-2702  WindowOrga...Controller system_server                        E  Attempting to externally change a non-organized container: Task{be4fd6b #13 type=standard A=10230:com.example.prac1_book}={handlePackageUpdate:false,} playercount=2 taskorg=android.window.ITaskOrganizer$Stub$Proxy@fa06af4
+2026-10-20 19:30:37.958 28480-28480 mple.prac1_book         com.example.prac1_book               W  Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+2026-10-20 19:30:37.958 28480-28480 mple.prac1_book         com.example.prac1_book               W  Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+2026-10-20 19:30:37.980 28480-28480 CompatChangeReporter    com.example.prac1_book               D  Compat change id reported: 333566037; UID 10230; state: ENABLED
+2026-10-20 19:30:38.105 28480-28480 nativeloader            com.example.prac1_book               D  Configuring clns-9 for other apk /data/app/~~pxkVG-wCBBTbMG38oUhDpQ==/com.example.prac1_book-dT85IpZrzKxqTptQHc8OYQ==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~pxkVG-wCBBTbMG38oUhDpQ==/com.example.prac1_book-dT85IpZrzKxqTptQHc8OYQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.prac1_book
+2026-10-20 19:30:38.121 28480-28480 ActivityThread          com.example.prac1_book               D  Set OS env TMPDIR to /data/user/0/com.example.prac1_book/cache
+2026-10-20 19:30:38.124 28480-28480 GraphicsEnvironment     com.example.prac1_book               V  Currently set values for:
+2026-10-20 19:30:38.124 28480-28480 GraphicsEnvironment     com.example.prac1_book               V    angle_gl_driver_selection_pkgs=[]
+2026-10-20 19:30:38.124 28480-28480 GraphicsEnvironment     com.example.prac1_book               V    angle_gl_driver_selection_values=[]
+2026-10-20 19:30:38.124 28480-28480 GraphicsEnvironment     com.example.prac1_book               V  com.example.prac1_book is not listed in per-application setting
+2026-10-20 19:30:38.124 28480-28480 GraphicsEnvironment     com.example.prac1_book               V  No special selections for ANGLE, returning default driver choice
+2026-10-20 19:30:38.126 28480-28480 GraphicsEnvironment     com.example.prac1_book               V  Neither updatable production driver nor prerelease driver is supported.
+2026-10-20 19:30:38.131 28480-28480 CompatChangeReporter    com.example.prac1_book               D  Compat change id reported: 407952621; UID 10230; state: ENABLED
+2026-10-20 19:30:38.132 28480-28480 CompatChangeReporter    com.example.prac1_book               D  Compat change id reported: 419020719; UID 10230; state: ENABLED
+2026-10-20 19:30:38.174 28480-28495 DisplayManager          com.example.prac1_book               I  Choreographer implicitly registered for the refresh rate.
+2026-10-20 19:30:38.176 28480-28480 ProtoLog                com.example.prac1_book               I  ProtoLog ready to log to logcat
+2026-10-20 19:30:38.177 28480-28480 mple.prac1_book         com.example.prac1_book               D  Initializing ProtoLog
+2026-10-20 19:30:38.177 28480-28480 ProtoLog                com.example.prac1_book               D  Initializing ProtoLog DataSource
+2026-10-20 19:30:38.179 28480-28480 ProtoLogConfigListener  com.example.prac1_book               I  Connected and registered client with 1 groups to ProtoLogConfigurationService (viewerConfig=null)
+2026-10-20 19:30:38.214 28480-28480 AppCompatDelegate       com.example.prac1_book               D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2026-10-20 19:30:38.261 28480-28495 GFXSTREAM               com.example.prac1_book               I  [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+2026-10-20 19:30:38.263 28480-28495 GFXSTREAM               com.example.prac1_book               I  [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+2026-10-20 19:30:38.271 28480-28495 libc                    com.example.prac1_book               W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-10-20 19:30:38.282 28480-28495 HWUI                    com.example.prac1_book               W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2026-10-20 19:30:38.282 28480-28495 HWUI                    com.example.prac1_book               W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2026-10-20 19:30:38.286 28480-28480 mple.prac1_book         com.example.prac1_book               I  hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app, TargetSdkVersion=37) using reflection: allowed
+2026-10-20 19:30:38.329 28480-28480 MainActivity            com.example.prac1_book               D  onCreate
+2026-10-20 19:30:38.332 28480-28480 MainActivity            com.example.prac1_book               D  onStart
+2026-10-20 19:30:38.342 28480-28480 MainActivity            com.example.prac1_book               D  onResume
+2026-10-20 19:30:38.346 28480-28480 CompatChangeReporter    com.example.prac1_book               D  Compat change id reported: 418924588; UID 10230; state: ENABLED
+2026-10-20 19:30:38.354 28480-28480 HWUI                    com.example.prac1_book               W  Unknown dataspace 0
+2026-10-20 19:30:38.367 28480-28480 WindowOnBackDispatcher  com.example.prac1_book               D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@9009272
+2026-10-20 19:30:38.369 28480-28500 libc                    com.example.prac1_book               W  Access denied finding property "vendor.mesa.virtgpu.kumquat"
+2026-10-20 19:30:38.370 28480-28502 CompatChangeReporter    com.example.prac1_book               D  Compat change id reported: 458413887; UID 10230; state: ENABLED
+2026-10-20 19:30:38.370 28480-28502 WindowOnBackDispatcher  com.example.prac1_book               D  setOnBackInvokedCallbackInfo: android.app.Activity$$ExternalSyntheticLambda0@9009272
+2026-10-20 19:30:38.373 28480-28480 VRI[MainActivity]       com.example.prac1_book               D  WindowInsets changed: 1344x2992 statusBars:[0,151,0,0] navigationBars:[0,0,0,72] mandatorySystemGestures:[0,187,0,96] 
+2026-10-20 19:30:38.375 28480-28480 HWUI                    com.example.prac1_book               I  Using FreeType backend (prop=Auto)
+2026-10-20 19:30:38.388 28480-28480 Surface                 com.example.prac1_book               I  Creating surface for consumer unnamed-28480-0 with slotExpansion=1 for 64 slots
+2026-10-20 19:30:38.389 28480-28480 Surface                 com.example.prac1_book               I  Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+2026-10-20 19:30:38.493 28480-28480 InsetsController        com.example.prac1_book               D  hide(ime())
+2026-10-20 19:30:38.493 28480-28480 ImeTracker              com.example.prac1_book               I  com.example.prac1_book:828ade64: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-20 19:30:38.689 28480-28486 mple.prac1_book         com.example.prac1_book               I  Compiler allocated 4522KB to compile void android.view.ViewRootImpl.performTraversals(long)
+2026-10-20 19:30:41.335 28480-28480 MainActivity            com.example.prac1_book               D  onPause
+2026-10-20 19:30:41.347 28480-28480 DetailActivity          com.example.prac1_book               D  onCreate
+2026-10-20 19:30:41.351 28480-28480 DetailActivity          com.example.prac1_book               D  onStart
+2026-10-20 19:30:41.353 28480-28480 DetailActivity          com.example.prac1_book               D  onResume
+2026-10-20 19:30:41.367 28480-28480 WindowOnBackDispatcher  com.example.prac1_book               D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@5a51130
+2026-10-20 19:30:41.368 28480-28480 VRI[DetailActivity]     com.example.prac1_book               D  WindowInsets changed: 1344x2992 statusBars:[0,151,0,0] navigationBars:[0,0,0,72] mandatorySystemGestures:[0,187,0,96] 
+2026-10-20 19:30:41.369 28480-28502 WindowOnBackDispatcher  com.example.prac1_book               D  setOnBackInvokedCallbackInfo: android.app.Activity$$ExternalSyntheticLambda0@5a51130
+2026-10-20 19:30:41.372 28480-28480 Surface                 com.example.prac1_book               I  Creating surface for consumer unnamed-28480-1 with slotExpansion=1 for 64 slots
+2026-10-20 19:30:41.373 28480-28480 Surface                 com.example.prac1_book               I  Creating surface for consumer VRI[DetailActivity]#1(BLAST Consumer)1 with slotExpansion=1 for 64 slots
+2026-10-20 19:30:41.510 28480-28480 InsetsController        com.example.prac1_book               D  hide(ime())
+2026-10-20 19:30:41.510 28480-28480 ImeTracker              com.example.prac1_book               I  com.example.prac1_book:577bad43: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-20 19:30:41.887 28480-28480 VRI[MainActivity]       com.example.prac1_book               D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-20 19:30:41.892 28480-28480 MainActivity            com.example.prac1_book               D  onStop
+2026-10-20 19:30:44.146 28480-28563 ProfileInstaller        com.example.prac1_book               D  Installing profile for com.example.prac1_book
+2026-10-20 19:30:44.617 28480-28480 DetailActivity          com.example.prac1_book               D  onPause
+2026-10-20 19:30:44.635 28480-28480 MainActivity            com.example.prac1_book               D  onStart
+2026-10-20 19:30:44.635 28480-28480 MainActivity            com.example.prac1_book               D  onResume
+2026-10-20 19:30:44.653 28480-28480 Surface                 com.example.prac1_book               I  Creating surface for consumer unnamed-28480-2 with slotExpansion=1 for 64 slots
+2026-10-20 19:30:44.653 28480-28480 Surface                 com.example.prac1_book               I  Creating surface for consumer VRI[MainActivity]#2(BLAST Consumer)2 with slotExpansion=1 for 64 slots
+2026-10-20 19:30:44.704 28480-28480 InsetsController        com.example.prac1_book               D  hide(ime())
+2026-10-20 19:30:44.704 28480-28480 ImeTracker              com.example.prac1_book               I  com.example.prac1_book:60951bb2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-20 19:30:45.151 28480-28480 VRI[DetailActivity]     com.example.prac1_book               D  visibilityChanged oldVisibility=true newVisibility=false
+2026-10-20 19:30:45.165 28480-28495 HWUI                    com.example.prac1_book               D  endAllActiveAnimators on 0x71a583856400 (RippleDrawable) with handle 0x71a4a386ea70
+2026-10-20 19:30:45.169 28480-28480 DetailActivity          com.example.prac1_book               D  onStop
+2026-10-20 19:30:45.170 28480-28480 WindowOnBackDispatcher  com.example.prac1_book               D  setTopOnBackInvokedCallback (unwrapped): null
+2026-10-20 19:30:45.170 28480-28502 WindowOnBackDispatcher  com.example.prac1_book               D  setOnBackInvokedCallbackInfo: null
+2026-10-20 19:30:45.171 28480-28480 DetailActivity          com.example.prac1_book               D  onDestroy
+2026-10-20 19:30:45.172 28480-28480 ViewRootImpl            com.example.prac1_book               D  Skipping stats log for color mode
+2026-10-20 19:30:46.351 28480-28480 MainActivity            com.example.prac1_book               D  onPause
+2026-10-20 19:30:46.393 28480-28480 NewBookActivity         com.example.prac1_book               D  onCreate
+2026-10-20 19:30:46.395 28480-28480 NewBookActivity         com.example.prac1_book               D  onStart
+2026-10-20 19:30:46.396 28480-28480 NewBookActivity         com.example.prac1_book               D  onResume
+2026-10-20 19:30:46.406 28480-28480 WindowOnBackDispatcher  com.example.prac1_book               D  setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@6cc5074
+2026-10-20 19:30:46.407 28480-28502 WindowOnBackDispatcher  com.example.prac1_book               D  setOnBackInvokedCallbackInfo: android.app.Activity$$ExternalSyntheticLambda0@6cc5074
+2026-10-20 19:30:46.409 28480-28480 AutofillManager         com.example.prac1_book               D  view not autofillable - has multiline input type
+2026-10-20 19:30:46.409 28480-28480 AutofillManager         com.example.prac1_book               D  view not autofillable - has multiline input type
+2026-10-20 19:30:46.410 28480-28480 VRI[NewBookActivity]    com.example.prac1_book               D  WindowInsets changed: 1344x2992 statusBars:[0,151,0,0] navigationBars:[0,0,0,72] mandatorySystemGestures:[0,187,0,96] 
+2026-10-20 19:30:46.416 28480-28480 Surface                 com.example.prac1_book               I  Creating surface for consumer unnamed-28480-3 with slotExpansion=1 for 64 slots
+2026-10-20 19:30:46.417 28480-28480 Surface                 com.example.prac1_book               I  Creating surface for consumer VRI[NewBookActivity]#3(BLAST Consumer)3 with slotExpansion=1 for 64 slots
+2026-10-20 19:30:46.562 28480-28480 InsetsController        com.example.prac1_book               D  hide(ime())
+2026-10-20 19:30:46.562 28480-28480 ImeTracker              com.example.prac1_book               I  com.example.prac1_book:f198b280: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+2026-10-20 19:30:46.941 28480-28480 MainActivity            com.example.prac1_book               D  onStop
+2026-10-20 19:30:46.950 28480-28495 HWUI                    com.example.prac1_book               D  endAllActiveAnimators on 0x71a5838509e0 (RippleDrawable) with handle 0x71a4a386cee0
+2026-10-20 19:30:48.270 28480-28487 mple.prac1_book         com.example.prac1_book               W  Cleared Reference was only reachable from finalizer (only reported once)
+2026-10-20 19:36:29.359   692-838   InputDispatcher         system_server                        E  channel 'c7d6504 com.example.prac1_book/com.example.prac1_book.NewBookActivity' ~ Channel is unrecoverably broken and will be disposed!
+---------------------------- PROCESS ENDED (28480) for package com.example.prac1_book ----------------------------
+2026-10-20 19:36:29.818   692-2583  WindowOrga...Controller system_server                        E  Attempting to externally change a non-organized container: Task{cd4d126 #14 type=standard A=10230:com.example.prac1_book}={handlePackageUpdate:false,} playercount=2 taskorg=android.window.ITaskOrganizer$Stub$Proxy@fa06af4
