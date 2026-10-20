@@ -15,3 +15,9 @@
 Дополнительные файлы
 - Логи приложения: Файл `Log.txt` с выгрузкой отладочных логов жизненного цикла находится в корневом каталоге репозитория.
 - Готовый APK: Исполняемый файл `app-debug.apk` выложен в разделе Releases (`v1.0`).
+
+Скрины экранов
+<img width="344" height="681" alt="Рисунок1" src="https://github.com/user-attachments/assets/112bab0c-235c-44c6-9ceb-fc92cdd5df7f" />
+<img width="237" height="470" alt="image" src="https://github.com/user-attachments/assets/1662980f-5a22-4c03-bdbd-4ea4b44840f5" />
+<img width="231" height="472" alt="image" src="https://github.com/user-attachments/assets/28dab7f0-0861-4aa5-a13e-b92b2724de48" />
+
