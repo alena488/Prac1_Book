@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/book_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Новая книга"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/book_text"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etTitleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название книги"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/etAuthorInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Автор"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etPagesInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Количество страниц"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etReviewInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ваш отзыв"
+            android:minLines="3"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnSaveBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Сохранить"
+            android:backgroundTint="@color/book_primary"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
